@@ -1,0 +1,1 @@
+arm-none-eabi-g++ -Wall -Wextra -Os -g OneWire.cpp vectors.cpp main.cpp trace.c stdio.c -mcpu=cortex-m3 -mthumb -lnosys -nostartfiles -ffreestanding -specs=nosys.specs -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -Wl,--gc-sections -TSTM32F103C8Tx_FLASH.ld
